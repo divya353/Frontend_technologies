@@ -1,0 +1,310 @@
+*{
+    margin:0;
+    padding:0;
+}
+section {
+  scroll-margin-top: 100px; 
+  padding: 60px 0;
+}
+.nav-link {
+    transition: all 0.3s ease;
+  }
+  
+.logo-name{
+color: #6b0480 !important;;
+}
+
+.nav-link:hover {
+    color:   #6b0480 !important;
+  }
+  .nav-link.active {
+    color: #6b0480 !important;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #6b0480 ;
+    font-weight: 600;
+  }
+
+  /* Home Section Start Here */
+  .home-section{
+    background: linear-gradient(to right, #ABCDFA,#d5e3f4); 
+  }
+  .heading{
+    font-weight: 700;
+  }
+  .section-info{
+    color:rgb(108, 117, 125);
+    font-weight:500;
+    font-size: 18px;
+  }
+  .button1{
+    color: #fff !important;
+    background-color:#6b0480 !important;
+    border:2px solid #6b0480 !important;
+    border-radius: 18px !important;
+    transition: all 0.3s ease;
+  }
+  .button1:hover {
+    background-color: #8505a3!important;
+  
+  }
+  
+  
+  .icon-row {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .icon-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #6b0480;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    transition: transform 0.3s ease, background-color 0.3s ease;   
+    cursor: pointer;
+  }
+  
+  .icon-circle:hover {
+    background-color: #8505a3;
+    transform: translateY(-5px); 
+  }
+  /*Home Section End Here   */
+
+  /* About Section Start Here */
+  .about-section{
+    background: linear-gradient(to right, #E6F87E, rgba(230, 248, 132, 0.4));
+    }
+  .section-head{
+      color:black;
+      text-align:center;
+      margin-bottom:40px;
+}
+.section-head:after{
+    background-color: #6b0480;
+    content:"";
+    display: block;
+    width:270px;
+    height:2px;
+    margin:15px auto;
+}
+.about-info{
+  font-size: 18px;
+  word-spacing: 2px;
+  line-height: 28px;
+}
+/* About Section End Here */
+
+/* Skill Section Start Here */
+.skill-section{
+  background: linear-gradient(to right, #ABCDFA,#d5e3f4); 
+}
+.skill-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+}
+.skill-icon{
+  color: #6b0480 !important;;
+}
+/* Skill Section End Here */
+
+/* Project Section Start Here */
+.project-box{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+.project-box:hover {
+  transform: translateY(-8px);
+}
+.project-img img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Project Section End Here */
+
+.button2{
+  width:145px;
+  border:2px solid #6b0480 !important;
+  border-radius: 18px !important;
+  transition: all 0.3s ease;
+  background-color:transparent !important;
+  color: #6b0480 !important;
+}
+.button2:hover{
+  color: #fff !important;;
+  background-color:#6b0480 !important;
+}
+/* Project Section End Here */
+
+/* Education Section Start Here */
+.edu-section{
+  background: linear-gradient(to right, #ABCDFA,#d5e3f4); 
+}
+.edu-card {
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+}
+
+.edu-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.edu-card p {
+  font-size: 16px;
+  color: #555;
+}
+.edu-card span {
+  font-size: 14px;
+  color:#6b0480
+}
+/* Education Section End Here */
+  
+/* Certificate Section Start Here */
+.certificate-box{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+.certificate-box:hover {
+  transform: translateY(-6px);
+}
+.certificate-content h6{
+color:#6b0480
+}
+
+/* Certificate Section End Here */
+
+/* Contact Section Start Here */
+.contact-section{
+  background: linear-gradient(to right, #ABCDFA,#d5e3f4); 
+}
+.icons {
+  width: 40px;
+  height: 40px;
+  background-color: #6b0480;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  transition: transform 0.3s ease, background-color 0.3s ease;   
+  cursor: pointer;
+}
+
+.icons:hover {
+  background-color: #8505a3;
+  transform: translateY(-5px); 
+}
+.form-control:focus {
+  border-color: #6b0480 !important;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2) !important;
+  outline: none !important;
+}
+
+
+
+.submit-btn {
+  background-color: #6b0480;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(107, 4, 128, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #8505a3;
+}
+/* Contact Section End Here */
+
+/* Footer Section Start Here */
+.footer {
+  height: 100px;
+}
+/* Footer Section End Here */
+
+/* smooth anchor scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* the circular button container */
+.top-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color:#6b0480;
+}
+.top-button:hover{
+background-color: #8505a3;
+}
+/* style the arrow inside */
+.arrow {
+  font-size: 1.25rem;
+  color: snow;
+}
+
+/* hide off-screen until scroll drives it up */
+.move-page-top {
+  position: fixed;
+  right: 20px;
+  bottom: -120px;
+  animation: progress linear;
+  animation-timeline: scroll();
+  transition: bottom 1s ease;
+  z-index: 2;
+}
+
+/* slide in once you’ve scrolled ~19% down */
+@keyframes progress {
+  0%   { bottom: -120px; }
+  18%  { bottom: -120px; }
+  19%  { bottom:   0px; }
+  20%  { bottom:  20px; }
+  100% { bottom:  20px; }
+}
+
+@media (min-width: 768px) {
+  .custom-btn-width {
+    max-width: 150px;
+  }
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Ubuntu", sans-serif;
+}
+/* hero section start */
+.hero-section {
+    background-image: url('../Images/Background/page-bg.jpg');
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.main-heading{
+    font-size:58px;
+    font-weight:300;
+}
+.hero-content {
+    color: white;
+}
+.hero-button{
+border:none;
+background-color: white;
+padding:10px 25px;
+border-radius:5px;
+}
+/* hero section end */
+
+/* Adventure section start */
+.adventure{
+    padding:40px 0px;
+}
+.heading{
+    font-size:40px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+/* Adventure section end */
+
+
+/* New Game Section Start  */
+.new-game{
+    padding:40px 0px;
+}
+.heading span{
+    color:#061da4;
+}
+.game:hover{
+    color:#061da4 !important;
+}
+.game-text1{
+    color:#061da4;
+}
+/* New Game Section End  */
+
+ /* Game review section Start  */
+ .game-review{
+    padding-top:40px;
+    padding-bottom:60px ;
+ }
+/* Game review section End */
+
+/* post section start */
+.recent-post{
+    padding-top:40px;
+    padding-bottom: 50px;
+}
+/* post section end */
+
+/* blog section start */
+.blog{
+    padding-top:40px;
+    padding-bottom: 50px;
+}
+/* blog section end */
+
+/* Featured game section start */
+.featured-game{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+/* Featured game section end */

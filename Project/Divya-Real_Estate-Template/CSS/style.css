@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+section{
+    padding:55px 0px;
+}
+.heading{
+    font-size:40px;
+    font-weight: 700;
+}
+.heading1{
+    color: #cca772 !important;
+}
+/* navbar start */
+.nav-bar:hover{
+    color: #cca772 !important;
+}
+/* navbar end */
+/* Hero Section Start */
+.hero{
+    background-image: url(../Images/Background/hero.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero-content h1{
+    font-size:58px;
+    font-weight: 700px;
+}
+
+.hero-content p {
+    max-width: 550px; 
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 18px;
+    font-weight:600;
+}
+.hero-btn{
+    background-color: rgba(0,0,0,0)!important;
+    border: 2px solid#CCA772 !important;
+    width:140px;
+        letter-spacing: 2px; 
+}
+
+.hero-btn:hover{
+    background-color: #CCA772!important;
+}
+/* Hero Section End */
+/* welcome section start*/
+.button2{
+    background-color: #CCA772!important;
+    border:2px solid #CCA772 !important;
+    width:140px;
+    letter-spacing: 1px;
+}
+.button2:hover{
+    color: black !important;;
+    background-color: white !important;
+}
+
+.welcome-heading{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.img3{
+    height: 300px !important;;
+}
+.button3{
+    background-color: #CCA772!important;
+    border:2px solid #CCA772 !important;
+    width:160px;
+    letter-spacing: 1px;
+}
+.button3:hover{
+    color: black !important;;
+    background-color: white !important;
+}
+/* welcome section end */
+
+/* Agent section start */
+.sub-para{
+    max-width:600px;
+    margin: 0 auto; 
+    text-align: center;
+}
+.agent-div{
+    background-color:#F7F9F9;
+}
+.agent-name{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.agent-info{
+    font-size: 14px;
+    line-height: 30px;
+}
+/* Agent section end */
+
+
+/* news and event section start */
+.news-img{
+    height: 300px !important;
+}
+.news-heading:hover{
+    color:#CCA772 !important;
+}
+.news-card {
+    border: none; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 10px; 
+}
+
+.news-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); 
+}
+/* news and event section end */
+
+/* About Section Start */
+.about-hero{
+    background-image: url(../Images/Background/about.jpg);
+    height:75vh;
+}
+
+/* About us Section Start  */
+.about-img{
+    width:550px;
+    height: 420px !important;;
+}
+.about-heading{
+    font-size: 38px;
+}
+.about-icon{
+    color:#CCA772;
+}
+/* About us Section End */
+
+/* Home Section start */
+
+.feature-box {
+    background: #fff;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.08); 
+    border-radius: 10px; 
+}
+
+
+.icon-box {
+    width: 70px;
+    height: 70px;
+    background-color:#CCA772;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box i {
+    color: white; /* Icon Color */
+}
+/* Home Section End */
+/* Why Choose section start */
+.deal-icon{
+    color:#CCA772;
+}
+/* Why Choose section end */
+/* Help Section Start */
+.div1{
+    background-color: #F7F9F9; 
+    height:50vh;
+    border-radius: 10px;
+}
+/* Help Section end */
+
+/* About Section End */
+
+/* Property Section Start*/
+/* Property Listing start  */
+.property-btn:hover{
+ color: white !important;
+}
+.propertyl-i{
+    color:#CCA772;
+}
+/* Property Listing end */
+/* testimonial section start */
+.testimonial-section {
+    padding: 60px 0;
+}
+
+.testimonial-card {
+    /* background: white; */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.testimonial-name {
+    font-size: 18px;
+    font-weight: bold;
+    color:#CCA772;
+    margin-bottom: 5px;
+}
+
+.testimonial-role {
+    font-size: 14px;
+    color: gray;
+}
+
+.carousel-indicators button {
+    background-color:#CCA772 !important;
+    width: 15px;
+    height: 15px;
+    
+    border: none;
+    margin: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+}
+/* testimonial section end */
+/*  Property Section End */ 
+/* Blog Section Start */
+.facility-div{
+    text-align: center;
+}
+.facility-img{
+    width: 700px !important;
+    height: 600px !important;
+}
+/* Blog Section end */
+
+/* contact section start */
+.contact-section {
+    background-color: #f8f9fa;
+}
+
+.contact-card {
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #cca772 !important;;
+    border: none !important;
+}
+
+.form-control:focus {
+    border-color: #cca772 !important;
+    box-shadow: none !important;
+    outline: none !important; 
+}
+
+/* contact section end */
+
+
+/* footer section start */
+.footer-text{
+    color:#CCA772;
+}
+.footer-list:hover{
+     color: #cca772 !important;
+}
+/* footer section end */
