@@ -1,0 +1,641 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Hero section start */
+.hero-bg{
+    background-image: url('../Images/Background/hero-bg.jpg');
+    width:100%;
+    height:110vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    margin-bottom: 50px;
+}
+.logo-name{
+    width:20%;
+}
+.logo-name h1{
+    color:white; 
+    font-family:  "Dancing Script", cursive; 
+}
+
+.menu{
+    color:white;
+    font-size: 24px;
+    padding-top:8px;
+    
+}
+
+.list{
+    list-style: none;
+    display: none;
+
+}
+.list li{
+    font-family: 18px;
+    padding:15px 20px;
+    text-transform: uppercase;
+    
+}
+.list li a{
+    text-decoration: none;
+    color:white;
+}
+
+.list li a:hover{
+    color:rgb(255, 190, 51);
+}
+.icons{
+    color:white;
+    padding-top:10px;
+    display:none
+}
+.i1{
+    padding-right: 8px;
+}
+
+.hero-btn{
+    background-color:rgb(255, 190, 51);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    padding:10px 15px;
+    width:125px;
+    font-size: 16px;
+    font-weight: 400;
+    display: none;
+    align-items: center;
+}
+.hero-btn:hover{
+    background-color: #E69C00; 
+}
+.hero-content{
+    padding:0px 15px;
+}
+.hero-content h1{
+    color:white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin-bottom: 20px;
+    font-family:  "Dancing Script", cursive; 
+}
+.hero-content p{
+    color:white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 25px;
+}
+
+.order-btn{
+    background-color:rgb(255, 190, 51);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    padding:10px 15px;
+    width:130px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.order-btn:hover{
+background-color: #E69C00;
+}
+/* Hero section end */
+
+/* Section2 start */
+
+.section2-info{
+    width:300px;
+    height:400px;
+    background-color: #222831;
+    text-align: center;
+    border-radius: 5px;
+    margin:40px 10px 20px;
+}
+
+.section-img{
+    padding:20px 0px;
+}
+
+.section-img img{
+    width:170px;
+    height:170px;
+    border: 2px solid #E69C00;
+    border-radius: 50%;
+    transition-delay: 0s;
+    transition-timing-function:ease-in-out;
+    transition-duration: 0.6s;
+}
+.section-img img:hover{
+    transform: scale(1.1);
+}
+.section-content h5{
+    color:white;
+    font-size:24px ;
+    font-weight: 500px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-family:  "Dancing Script", cursive; 
+}
+.section-content p{
+    color:white;
+    font-size: 48px;
+    font-weight:700px ;
+    line-height:48px ;
+    margin-bottom: 15px;
+    font-family:  "Dancing Script", cursive; 
+}
+
+.section2-btn{
+    background-color:rgb(255, 190, 51);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    padding:10px 15px;
+    width:130px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.section2-btn:hover{
+background-color: #E69C00;
+}
+
+ .section-contact .text{
+    font-size:10px ;
+}
+/* Section2 end */
+
+/* Menu section start */
+.main-heading{
+    text-align: center;
+    margin:30px 0px 40px;
+    
+}
+.main-heading h2{
+    font-size:40px ;
+    font-weight: 700px;
+    line-height: 48px;
+    font-family:  "Dancing Script", cursive; 
+}
+
+.menu-info{
+    width:300px;
+    height:400px;
+    background-color: #222831; 
+    margin:20px 10px; 
+ 
+}
+
+.menu-img1{
+    width:300px;
+    height:200px;
+    background-color: #F1F2F3;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.menu-img1 img{
+    width:150px;
+    height:150px;
+}
+
+.menu-content1{
+    color:white;
+    padding:30px 15px;
+}
+
+.menu-content1 h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.menu-content1 p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    margin-bottom: 18px;
+}
+
+ .span1{
+   margin-top: 15px;
+   float: left;
+}
+.icon{
+    width:38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #E69C00;
+    font-size:16px ;
+    font-weight: 400;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.button{
+    text-align: center;
+    margin:40px 0px;
+}
+
+.menu1-btn{
+    background-color:rgb(255, 190, 51);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    padding:10px 15px;
+    width:130px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.menu1-btn:hover{
+    background-color:#E69C00; 
+}
+
+/* Menu section end */
+
+/* About Section start */
+.section-about{
+    background-color: #222831;
+    height:180vh;
+
+}
+.about-content{
+    padding:30px 15px;
+    
+}
+.section-about h2{
+    color:white;
+    font-size:40px ;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 15px 0px;
+    font-family:  "Dancing Script", cursive; 
+}
+
+.section-about p{
+    color:white;
+    font-size: 16px;
+    font-weight:400 ;
+    line-height:24px ;
+    margin-bottom: 16px;
+}
+
+.about-btn{
+    background-color:rgb(255, 190, 51);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    padding:10px 15px;
+    width:130px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom:15px;
+}
+
+.about-btn:hover{
+    background-color: #E69C00;
+} 
+.about-img{
+    padding:0px 10px;
+}
+.about-img img{
+    width:300px;
+    height:400px;
+}
+/* About section end */
+
+/* Contact Section start  */
+
+.section-contact{
+    margin:60px 0px 30px;
+}
+
+.section-contact h2{
+    margin:0px 15px 20px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:  "Dancing Script", cursive; 
+}
+.input1{
+    width:250px;
+    padding:10px;
+    margin:15px;
+}
+.input1:hover{
+    border-color:black ;
+}
+input::placeholder{
+    color: black;
+}
+.contact-btn{
+    background-color:rgb(255, 190, 51);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    padding:10px 15px;
+    width:130px;
+    font-size: 16px;
+    font-weight: 400;
+    margin:15px ;
+}
+.contact-btn:hover{
+    background-color:#E69C00 ;
+}
+.contact-map{
+    width:300px;
+    height:280px;
+    margin:30px 10px;  
+}
+
+.contact-map img{
+    width:300px;
+    height:250px;
+
+}
+/*Contact section end */
+
+/* testimonies section start */
+
+.section-content1{
+    padding:25px;
+    text-align: start;
+}
+.section-content1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:white;
+    margin-bottom: 15px;
+ 
+}
+
+.section-content1 h5{
+    font-size: 20px;
+    color:white;
+}
+/* testimonies section end */
+
+/* Footer section start */
+.footer{
+    background-color: #222831;
+    height:150vh;
+    margin-top:80px;
+}
+.footer-content{
+    color:white;
+    padding:40px 20px;
+
+}
+.footer-info h4{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 33px;
+        margin: 28px 0px;
+
+    }
+
+    .footer-info p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    
+    .text{
+    margin-bottom:15px;
+    font-size: 16px;
+    }
+
+    .text:hover{
+        color:rgb(255, 190, 51);
+    }
+
+.icon1{
+    padding-right: 8px;
+}
+
+.time{
+    margin-bottom: 8px;
+}
+.copyright p{
+    text-align: center;
+    color:white;
+    font-size: 22px;
+    font-weight: 400;
+}
+.span-text1{
+    color:rgb(255, 190, 51);
+}
+/* Footer section end */
+
+@media(min-width:768px){
+    .hero-content{
+        width:50%
+    }
+    .section2{
+        display: flex;
+        justify-content: center;
+    }
+    .section2-info{
+        width:340px;
+    }
+    .section-menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+   .section-about{
+    display: flex;
+    justify-content: space-evenly;
+    height:120vh;
+   }
+
+   .about-content{
+    width:45%;
+    align-self: center;
+   }
+
+   .about-img{
+    padding-top:60px;
+   }
+
+   .about-img img{
+    height:450px;
+   }
+
+   .contact{
+    display: flex;
+    margin:30px;
+   }
+
+   .contact-map{
+    width:340px;
+    height:300px;
+    align-self: center; 
+}
+   .contact-map img{
+    width:340px;
+    height:300px;
+   }
+ 
+
+   .footer{
+    height:80vh;
+   }
+
+   .footer-content{
+    display:flex;
+    justify-content: space-around;
+   }
+
+   .footer-info{
+    width:30%;
+   }
+   
+
+}
+
+@media(min-width:992px){
+    .hero-bg{
+        height:100vh;
+    }
+    .list{
+        display: flex;
+    }
+    .icons{
+        display: flex;
+    }
+    .hero-btn{
+        display: flex;
+    }
+
+    .menu{
+        display:none;
+    }
+    .nav{
+        justify-content: space-around;
+        margin-bottom: 75px;
+    }
+
+    .i1{
+        padding-right:15px;
+    }
+    .i1:hover{
+        color:#E69C00;
+    }
+    .hero-content{
+        margin-left: 40px;
+        width:40%;
+    }
+
+    .hero-content p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .section2{
+        margin: 40px 0px;
+    }
+
+    .section2-info{
+        display: flex;
+        width:550px;
+        height:200px;
+
+    }
+
+    .section-img{
+        padding:25px 20px;
+    }
+
+    .section-img img{
+        width:140px;
+        height:140px;
+    }
+
+    .section-content{
+        padding:25px 10px;
+    }
+
+    .m1{
+        display: none;
+    }
+
+    .section-menu{
+        justify-content: space-evenly;
+    }
+
+    .menu-info{
+        width:350px
+    }
+
+    .menu-img1{
+        width:350px;
+    }
+
+    .menu1-btn{
+        width:170px;
+    }
+    
+    .section-about{
+        height:100vh;
+    }
+
+    .about-content{
+        width:35%;
+        align-self: center;
+       }
+    
+       .about-img img{
+        width:500px;
+        height:500px;
+       }
+
+       .contact{
+        justify-content:space-around;
+       }
+       
+       .input1{
+        width:450px;
+    }
+    
+    .contact-map{
+        width:600px;
+        height:330px;
+
+    }
+
+    .contact-map img{
+        width:600px;
+        height:330px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+
+    .footer{
+        height:65vh;
+       }
+    
+       .footer-content{
+        justify-content: space-evenly;
+       }
+    
+       .footer-info{
+        width:25%;
+       }
+
+}
